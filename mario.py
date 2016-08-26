@@ -24,6 +24,6 @@ print('marioMagic Implementaton')
 def marioMagic(n=10):
     # remember row indexing start from zero
     for row in range(n):
-        print((' ' * (n - row - 1)) + ('#' * row) + '##')
+        print((' ' * (n - row - 1)) + (('#' * row) + '##'))
 
 marioMagic(15)
