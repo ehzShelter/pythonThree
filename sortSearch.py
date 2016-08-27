@@ -21,3 +21,8 @@ print(sorted(ary, reverse=True))
 strAry = ['cat', 'cs50!', 'ban']
 print(sorted(strAry))
 
+# python magic
+funSquare = [ i**2 for i in range(1, 10 + 1) ]
+
+print(funSquare)
+
